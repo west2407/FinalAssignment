@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+<title>OPTIC - Your advertising solution</title>
+</head>
+
+<body>
+<header > <a href="index.html" id="logo-header-link"><img id="logo-header" src="images/header.gif" alt="Optic" ></a> </header>
+<nav class="nav-container" >
+  <div class="nav"> <a href="index.html">HOME</a> <a href="about_us.html">ABOUT US</a> <a href="portfolio.htm">PORTFOLIO</a> <a href="contact_us.htm">CONTACT US</a> <a href="news.html">NEWS</a> </div>
+</nav>
+<main >
+  <div class="band"> </div>
+  <div id="contact">
+    <form  onsubmit="return validateForm()" name="input_form" method="get">
+      <p>
+        <label for="name"><strong>Name:</strong></label>
+        <br />
+        <input type="text" name="name" id="name" value="" />
+        <br />
+        <label for="email"><strong>E-mail address:</strong></label>
+        <br />
+        <input type="text" name="email" id="email" value="" />
+        <br />
+        <label for="message"><strong>Comments:</strong></label>
+        <br />
+        <textarea name="message" id="message" rows="5" cols="25"  value=""></textarea>
+      </p>
+      <button type="submit" class="btn" >Send Message</button>
+    </form>
+  </div>
+  <div class="tan_content_block"> </div>
+</main>
+<footer >
+  <p><em>OPTIC</em> - Your advertising solution. This page is Copyright &copy; by <em>OPTIC.</em></p>
+</footer>
+<span class="mini_game" ><p ><a href="mini_game.html">mini game</a></p></span>
+<script src="jquery.min.js"></script>
+<script src="main.js" ></script>
+</body>
+</html>
